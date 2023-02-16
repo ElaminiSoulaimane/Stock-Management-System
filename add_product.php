@@ -65,7 +65,7 @@
               <div class="form-group">
                 <div class="input-group">
                   <span class="input-group-addon">
-                   <i class="glyphicon glyphicon-th-large"></i>
+                   T
                   </span>
                   <input type="text" class="form-control" name="product-title" placeholder="Product Title">
                </div>
@@ -98,7 +98,7 @@
                  <div class="col-md-4">
                    <div class="input-group">
                      <span class="input-group-addon">
-                      <i class="glyphicon glyphicon-shopping-cart"></i>
+                      Q
                      </span>
                      <input type="number" class="form-control" name="product-quantity" placeholder="Product Quantity">
                   </div>

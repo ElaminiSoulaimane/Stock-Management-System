@@ -35,11 +35,13 @@
               <form class="form-inline" action="media.php" method="POST" enctype="multipart/form-data">
               <div class="form-group">
                 <div class="input-group">
-                  <span class="input-group-btn">
-                    <input type="file" name="file_upload" multiple="multiple" class="btn btn-primary btn-file"/>
-                 </span>
+                  <div class="input-group-btn">
+            
+                    <input  type="file" name="file_upload" multiple="multiple"  class="btn  btn-file" style="background-color:darkorange; width: 60px;"/>
+                    <!-- <span>uplaoud</span> -->
+                 </div>
 
-                 <button type="submit" name="submit" class="btn btn-default">Upload</button>
+                 <button type="submit" name="submit" class="btn btn-default">Add</button>
                </div>
               </div>
              </form>
@@ -49,7 +51,7 @@
             <table class="table">
               <thead>
                 <tr>
-                  <th class="text-center" style="width: 50px;">#</th>
+                  <th class="text-center" style="width: 50px;">ID</th>
                   <th class="text-center">Photo</th>
                   <th class="text-center">Photo Name</th>
                   <th class="text-center" style="width: 20%;">Photo Type</th>

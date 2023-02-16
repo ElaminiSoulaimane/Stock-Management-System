@@ -16,9 +16,12 @@
 <div class="row">
    <div class="col-md-4">
        <div class="panel profile">
-         <div class="jumbotron text-center bg-red">
+         <div class="jumbotron text-center " style="background-color:darkorange;" >
             <img class="img-circle img-size-2" src="uploads/users/<?php echo $user_p['image'];?>" alt="">
-           <h3><?php echo first_character($user_p['name']); ?></h3>
+           <h3><?php echo first_character($user_p['username']); ?></h3>
+           <h4 style="color:white;">Your Level <?php echo $user_p['user_level'];?></h4>
+
+           
          </div>
         <?php if( $user_p['id'] === $user['id']):?>
          <ul class="nav nav-pills nav-stacked">

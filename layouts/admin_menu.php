@@ -5,7 +5,7 @@
 .submenu-toggle{
   color: #ffff !important;
 }
-i{
+.submenu-toggle i{
   color: #ffff !important;
 }
 </style>

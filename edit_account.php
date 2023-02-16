@@ -63,11 +63,11 @@
             <div class="col-md-8">
               <form class="form" action="edit_account.php" method="POST" enctype="multipart/form-data">
               <div class="form-group">
-                <input type="file" name="file_upload" multiple="multiple"  class="btn btn-default btn-file"/>
+                <input type="file" name="file_upload" multiple="multiple"  class="btn btn-default btn-file" style="background-color:darkorange; width: 60px;"/>
               </div>
               <div class="form-group">
-                <input type="hidden"  name="user_id" value="<?php echo $user['id'];?>">
-                 <button  type="submit" name="submit" class="btn btn-warning">Change</button>
+                <input type="hidden"  name="user_id" value="<?php echo $user['id'];?>" >
+                 <button  type="submit" name="submit" class="btn btn-warning" style="background-color:darkorange;">Change</button>
               </div>
              </form>
             </div>

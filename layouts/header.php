@@ -18,7 +18,7 @@
   <body>
   <?php  if ($session->isUserLoggedIn(true)): ?>
     <header id="header">
-      <div class="logo pull-left" style="background-color: darkorange;" > Cardly System</div>
+      <div class="logo pull-left" style="background-color: #ff8c00;" ><img height="45px"  src="./libs/images/Logo.png" alt=""></div>
       <div class="header-content">
       <div class="header-date pull-left">
         <strong><?php echo date("F j, Y, g:i a");?></strong>
@@ -32,8 +32,8 @@
             </a>
             <ul class="dropdown-menu">
               <li>
-                  <a href="profile.php?id=<?php echo (int)$user['id'];?>">
-                      <i class="glyphicon glyphicon-user"></i>
+                  <a href="profile.php?id=<?php echo (int)$user['id'];?>" style="color: black;">
+                      <i  class="glyphicon glyphicon-user"></i>
                       Profile
                   </a>
               </li>
